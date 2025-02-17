@@ -4,7 +4,7 @@ UnNatty Hub is made to detect hook on Discord (for the loudmic community, to avo
 
 ## Usage
 
-[![Latest Release](https://img.shields.io/github/v/release/oracleuhq/UnNatty-Hub?color=blue&label=Download&style=for-the-badge)]([https://github.com/oracleuhq/UnNatty-Hub/releases/download/v2.2/unnattyhub.exe])
+[![Latest Release](https://img.shields.io/github/v/release/oracleuhq/UnNatty-Hub?color=blue&label=Download&style=for-the-badge)](https://github.com/oracleuhq/UnNatty-Hub/releases/download/v2.2/unnattyhub.exe)
 1. Run the executable
 2. Wait until it finishes
 3. Review `output.zip` and check for suspicious things
