@@ -109,7 +109,7 @@ void SystemLogger::logUsnJournal() {
     CreateDirectoryW(usnFolder.c_str(), NULL);
 
     std::wstring outputFile2 = usnFolder + L"\\UsnExecutableActions.txt";
-    executeCommand(L"fsutil usn readjournal C: csv | findstr /i \"\.exe \.dll\"", outputFile2);
+    executeCommand(L"fsutil usn readjournal C: csv | findstr /i \"\.exe \"", outputFile2);
 
     std::wstring outputFile3 = usnFolder + L"\\UsnJournalDetails.txt";
     executeCommand(L"fsutil usn queryjournal C:", outputFile3);
