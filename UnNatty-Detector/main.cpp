@@ -1,4 +1,4 @@
-﻿#include "common.h"
+#include "common.h"
 #include "hookdetector.h"
 #include "processchecker.h"
 #include "cosa.h"
@@ -595,7 +595,7 @@ void runUnnattyDetector() {
         clearScreen();
         std::cout << BLUE << R"(
 =======================================================
-              UnNatty-Detector v2.2.0                 
+              UnNatty-Detector v2.2.1                 
                  Created by Oracle              
 =======================================================)" << RESET << std::endl;
 
@@ -614,7 +614,7 @@ void runUnnattyDetector() {
 
         std::ofstream log("logs.txt", std::ios::trunc);
         log << "=======================================================\n";
-        log << "              UnNatty-Detector v2.1.2                   \n";
+        log << "              UnNatty-Detector v2.2.1                   \n";
         log << "Created by Oracle (Credit to Cosa for external detection)\n";
         log << "=======================================================\n\n";
         log << "Scan Started: " << getCurrentTimestamp() << "\n\n";
@@ -896,7 +896,7 @@ int main() {
     while (true) {
         clearScreen();
         printMainMenu();
-
+        SetConsoleTitle(L"UnNatty Hub");
         std::cout << "\n    Enter your choice: ";
         char choice = _getch();
 
