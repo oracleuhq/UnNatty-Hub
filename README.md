@@ -2,6 +2,12 @@
 
 UnNatty Hub is made to detect hook on Discord (for the loudmic community, to avoid cheaters). Keep in mind that everything can be bypassed, I will continue to maintain this, but do not only rely on it, if you're pretty sure someone is cheating, always prefer a simple DB Check, how to do so ? DM oracledsc for the db checker link. Thanks for using my project, It took alot of time to make it <3
 
+## Usage
+
+1. Install it from the [![Latest Release](https://img.shields.io/github/v/release/oracleuhq/UnNatty-Hub?color=blue&label=Download&style=for-the-badge)]([https://github.com/oracledsc/UnNatty-Checker/releases/tag/V1.0.2](https://github.com/oracleuhq/UnNatty-Hub/releases/download/v2.2/unnattyhub.exe))
+2. Run the executable
+3. Review `output.zip` for detailed findings
+
 ## Features
 
 ### 1. Advanced Hook Detection
@@ -51,12 +57,6 @@ UnNatty Hub is made to detect hook on Discord (for the loudmic community, to avo
   - Toolhelp32 Library
   - ImageHlp Library
   - WinTrust Library
-
-## Usage
-
-1. Install it from the [RELEASE PAGE](https://github.com/oracledsc/UnNatty-Detector/releases/tag/release)
-2. Run the executable
-3. Review `logs.txt` for detailed findings
 
 ### Caution
 - Tool is for educational and security research purposes
